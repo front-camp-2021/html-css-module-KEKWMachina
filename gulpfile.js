@@ -3,7 +3,7 @@ const sourcemaps = require('gulp-sourcemaps');
 const sass = require('gulp-sass')(require('sass'));
 const autoprefixer = require('gulp-autoprefixer');
 
-const srcPaths = './src/module-3/online-store/';
+const srcPath = './src/module-3/online-store/';
 
 function styles(cb) {
   src(`${srcPath}styles/style.scss`)
