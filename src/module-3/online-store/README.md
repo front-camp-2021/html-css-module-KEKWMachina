@@ -11,9 +11,9 @@ To compile SCSS to CSS we will use Gulp.
    ```
 To compile SCSS to CSS use:
 ```
-npm sass
+npm run sass
 ```
 To watching use:
 ```
-npm sass:watch
+npm run sass:watch
 ```
