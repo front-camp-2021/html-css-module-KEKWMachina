@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body {
+    background-color: #F9F9F9;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+ }
+
+.card {
+    margin: 20px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    float: left;
+    width: 25rem;
+    height: 30.375rem;
+}
+
+.card .card-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70.7%;
+}
+
+.rating-and-price {
+    color: #2C2C2C;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.rating {
+    padding: 0.375rem 0.573rem 0.438rem 0.674rem;
+    background-color: #6F64F8;
+    color: #FFFFFF;
+    border-radius: 4px;
+
+}
+
+.star {
+    padding-right: 0.587rem;
+}
+
+.price {
+    padding: 0.375rem 0.573rem 0.438rem 0.674rem;
+    font-weight: 600;
+}
+
+.item-name {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    
+}
+
+.item-description {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.wishlist-cart-btn {
+    display: flex;
+    justify-content: space-around;
+    border-bottom-left-radius: 8px;
+}
+
+.wishlist.cart {
+    display: flex;
+    flex-grow: 1;
+    border-bottom-left-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: none;
+    border: solid 3px green;
+}
+
+.wishlist, 
+.cart {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: none;
+    font-size: 14px;
+    line-height: 18px;
+    max-width: 50%;
+}
+
+.wishlist {
+    border-bottom-left-radius: 8px;
+    padding: 0.5rem;
+    background-color: #EDEDED;
+    color: #2C2C2C;
+}
+
+.cart {
+    border-bottom-right-radius: 8px;
+    padding: 0.7rem;
+    background-color: #6F64F8;
+    font-style: normal;
+    color: #FFFFFF;
+    max-width: 50%;
+}
+
+
