@@ -4,6 +4,7 @@
 
 ![preview](preview.png)
 
+<<<<<<< HEAD
 На вхід компонент має приймати об'єкт виду:
 
 ```json
@@ -20,3 +21,8 @@
   "brand": "acer"
 }
 ```
+=======
+Зображення можете брати зі сайту Розетки, наприклад:
+https://content2.rozetka.com.ua/goods/images/big_tile/163399632.jpg
+https://content.rozetka.com.ua/goods/images/big_tile/163399633.jpg
+>>>>>>> f756be3a9c4815c287f64ce48aacbb9422a0b807
