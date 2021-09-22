@@ -80,19 +80,19 @@ body {
     }
 }
 
-.main-content {
+.main-content-nav {
     display: flex;
-    height: 1320px;
     margin: 10px;
-
-    .filters {
-        width: 30%; 
-        position: relative;
-
-        .filters-header {
+    
+    .filters-header {
+        width: 30%;
+        
+        
+        .filters-header__nav {
             display: flex;
-            width: 95%;
             justify-content: space-between;
+            width: 95%;
+            
 
             .filters-header__marker {
                 font-size: 18px;
@@ -112,13 +112,49 @@ body {
                 filter: drop-shadow( -0.4px 0.5px 0.05rem $shadow-color);
             }
         }
+        
+    }
+
+    .search-resluts {
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+
+        .search-resluts__number {
+            align-items: center;
+            font-size: 18px;
+            line-height: 21px;
+            font-weight: $font-weight-medium;
+        }
+
+        .search-resluts__wishlist-button {
+            height: 25px;
+            width: 25px;
+            border: none;
+            border-radius: 4px;
+            background-color: $button-primary-color;
+            background-image: url(/img/wishlist-img.svg);
+            background-repeat: no-repeat;
+            background-position: bottom 50% left 50%;
+        }
+    }
+}
+
+.main-content {
+    display: flex;
+    height: 1296.5px;
+    margin: 10px;
+
+    .filters {
+        width: 30%; 
+        position: relative;
 
         .filters__main {
             filter: drop-shadow( -0.4px 0.5px 0.05rem $shadow-color);
             margin-top: 5px;
             position: absolute;
             width: 95%;
-            height: 95%;
+            height: 96%;
             background-color: $elements-main-color;
             border-radius: 4px;
             font-size: 16px;
@@ -182,29 +218,6 @@ body {
 
     .cards {
         width: 70%;
-
-        .search-resluts {
-            display: flex;
-            justify-content: space-between;
-
-            .search-resluts__number {
-                align-items: center;
-                font-size: 18px;
-                line-height: 21px;
-                font-weight: $font-weight-medium;
-            }
-
-            .search-resluts__wishlist-button {
-                height: 25px;
-                width: 25px;
-                border: none;
-                border-radius: 4px;
-                background-color: $button-primary-color;
-                background-image: url(/img/wishlist-img.svg);
-                background-repeat: no-repeat;
-                background-position: bottom 50% left 50%;
-            }
-        }
 
         .searchfield {
             width: 100%;
@@ -477,6 +490,18 @@ body {
             font-size: 25px;
             line-height: 18px;
             color: $secondary-text-color;
+        }
+    }
+
+    .main-content-nav {
+        flex-direction: column;
+
+        .filters-header {
+            width: 50%;
+        }
+
+        .search-resluts {
+            width: 100%;
         }
     }
 
