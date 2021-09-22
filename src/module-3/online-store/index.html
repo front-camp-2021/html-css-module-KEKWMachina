@@ -7,9 +7,310 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Online Store</title>
   <link rel="stylesheet" href="style.css">
+  
 </head>
 
 <body>
+  <header class="header">
+    <div class="header__logo"></div>
+    <div class="header__text">Online Store</div>
+  </header>
+
+  <div class="breadcrumbs">
+    <div class="breadcrumbs__home-button"></div>
+    <div class="breadcrumbs__arrows"></div>
+    <div class="breadcrumbs__active-page">eCommerce</div>
+    <div class="breadcrumbs__arrows"></div>
+    <div class="breadcrumbs__page">Electronics</div>
+  </div>
+
+  <div class="main-content">
+
+    <div class="filters">
+      <div class="filters-header">
+        <div class="filters-header__marker">Filters</div>
+        <button class="filters-header__filters-hide-button"></button>
+      </div>
+      <div class="filters__main">
+        <div class="filters__price-range">
+          <h5 class="filters__section-header">Multi Range</h5>
+          <div class="filters__checkbox">
+            <input type="checkbox" id="Range" name="$10"checked class="filters__checkbox-round">
+            <label for="scales">$10</label>
+          </div>
+          <div class="filters__checkbox">
+            <input type="checkbox" id="Range" name="$10-$100" class="filters__checkbox-round">
+            <label for="scales">$10-$100</label>
+          </div>
+          <div class="filters__checkbox">
+            <input type="checkbox" id="Range" name="$100-$500" class="filters__checkbox-round">
+            <label for="scales">$100-$500</label>
+          </div>
+          <div class="filters__checkbox">
+            <input type="checkbox" id="Range" name="$500" class="filters__checkbox-round">
+            <label for="scales">$500</label>
+          </div>
+          <div class="filters__checkbox">
+            <input type="checkbox" id="Range" name="All" class="filters__checkbox-round">
+            <label for="scales">All</label>
+          </div>
+        </div>
+        <div class="filters_line"></div>
+        <div class="filters__category">
+          <h5 class="filters__section-header">Category</h5>
+          <div class="filters__checkbox">
+            <input type="checkbox" id="Range" name="All" class="filters__checkbox-square">
+            <label for="scales">Cell Phones</label>
+          </div>
+          <div class="filters__checkbox">
+            <input type="checkbox" id="Range" name="All" class="filters__checkbox-square">
+            <label for="scales">Computers & tablets</label>
+          </div>
+          <div class="filters__checkbox">
+            <input type="checkbox" id="Range" name="All" class="filters__checkbox-square">
+            <label for="scales">Cell Phone Accessories</label>
+          </div>
+          <div class="filters__checkbox">
+            <input type="checkbox" id="Range" name="All" class="filters__checkbox-square">
+            <label for="scales">Appliances</label>
+          </div>
+          <div class="filters__checkbox">
+            <input type="checkbox" id="Range" name="All" class="filters__checkbox-square">
+            <label for="scales">Audio</label>
+          </div>
+          <div class="filters__checkbox">
+            <input type="checkbox" id="Range" name="All" class="filters__checkbox-square">
+            <label for="scales">iPhone Accessories</label>
+          </div>
+          <div class="filters__checkbox">
+            <input type="checkbox" id="Range" name="All" class="filters__checkbox-square">
+            <label for="scales">Cameras & Camcorders</label>
+          </div>
+          <div class="filters__checkbox">
+            <input type="checkbox" id="Range" name="All" class="filters__checkbox-square">
+            <label for="scales">iPhone Cases & Clips</label>
+          </div>
+          <div class="filters__checkbox">
+            <input type="checkbox" id="Range" name="All" class="filters__checkbox-square">
+            <label for="scales">TV & Home Theaters</label>
+          </div>
+          <div class="filters__checkbox">
+            <input type="checkbox" id="Range" name="All" class="filters__checkbox-square">
+            <label for="scales">Small Kitchen Appliances</label>
+          </div>
+        </div>
+        <div class="filters_line"></div>
+        <div class="filters__brands">
+          <h5 class="filters__section-header">Brand</h5>
+          <div class="filters__checkbox">
+            <input type="checkbox" id="Range" name="All" class="filters__checkbox-square">
+            <label for="scales">Insingi</label>
+          </div>
+          <div class="filters__checkbox">
+            <input type="checkbox" id="Range" name="All" class="filters__checkbox-square">
+            <label for="scales">Samsung</label>
+          </div>
+          <div class="filters__checkbox">
+            <input type="checkbox" id="Range" name="All" class="filters__checkbox-square">
+            <label for="scales">Apple</label>
+          </div>
+          <div class="filters__checkbox">
+            <input type="checkbox" id="Range" name="All" class="filters__checkbox-square">
+            <label for="scales">HP</label>
+          </div>
+          <div class="filters__checkbox">
+            <input type="checkbox" id="Range" name="All" class="filters__checkbox-square">
+            <label for="scales">Sony</label>
+          </div>
+          <div class="filters__checkbox">
+            <input type="checkbox" id="Range" name="All" class="filters__checkbox-square">
+            <label for="scales">Metra</label>
+          </div>
+          <div class="filters__checkbox">
+            <input type="checkbox" id="Range" name="All" class="filters__checkbox-square">
+            <label for="scales">Dyne</label>
+          </div>
+          <div class="filters__checkbox">
+            <input type="checkbox" id="Range" name="All" class="filters__checkbox-square">
+            <label for="scales">LG</label>
+          </div>
+          <div class="filters__checkbox">
+            <input type="checkbox" id="Range" name="All" class="filters__checkbox-square">
+            <label for="scales">Canon</label>
+          </div>
+          <div class="filters__checkbox">
+            <input type="checkbox" id="Range" name="All" class="filters__checkbox-square">
+            <label for="scales">Speck</label>
+          </div>
+        </div>
+      </div>
+      <button class="filters__filters-reset-button">Reset Filters</button>
+    </div>
+
+    <div class="cards">
+      <div class="search-resluts">
+        <div class="search-resluts__number">7588 Results Found</div>
+          <button class="search-resluts__wishlist-button"></button>
+      </div>
+
+      <div class="searchfield">
+        <input class="searchfield__input" placeholder="Search">
+      </div>
+
+      <div class="merchandise-cards">
+        <div class="merchandise-cards__card">
+          <img src="/img/apple-watch.svg" class="merchandise-cards__image">
+          <div class="merchandise-cards__rating-and-price">
+            <div class="merchandise-cards__rating">3.4</div>
+            <div class="merchandise-cards__price">$399</div>
+          </div>
+          <ul class="merchandise-cards__item-descriptions">
+            <li class="merchandise-cards__item-name">Apple Watch Series 4 GPS</li>
+            <li class="merchandise-cards__item-description">Redesigned from scratch and completely revised.</li>
+          </ul>
+          <div class="merchandise-cards__buttons">
+            <button class="merchandise-cards__wishlist-button">WISHLIST</button>
+            <button class="merchandise-cards__add-to-cart-button">ADD TO CART</button>
+          </div>
+        </div>
+        <div class="merchandise-cards__card">
+          <img src="/img/jbl-speaker.svg" class="merchandise-cards__image">
+          <div class="merchandise-cards__rating-and-price">
+            <div class="merchandise-cards__rating"><span>4.4</span></div>
+            <div class="merchandise-cards__price">$199</div>
+          </div>
+          <ul class="merchandise-cards__item-descriptions">
+            <li class="merchandise-cards__item-name">JBL Speaker</li>
+            <li class="merchandise-cards__item-description">Redesigned from scratch and completely revised.</li>
+          </ul>
+          <div class="merchandise-cards__buttons">
+            <button class="merchandise-cards__wishlist-button">WISHLIST</button>
+            <button class="merchandise-cards__add-to-cart-button">ADD TO CART</button>
+          </div>
+        </div>
+        <div class="merchandise-cards__card">
+          <img src="/img/iphone-x.svg" class="merchandise-cards__image">
+          <div class="merchandise-cards__rating-and-price">
+            <div class="merchandise-cards__rating">4.8</div>
+            <div class="merchandise-cards__price">$899</div>
+          </div>
+          <ul class="merchandise-cards__item-descriptions">
+            <li class="merchandise-cards__item-name">iPhone X</li>
+            <li class="merchandise-cards__item-description">Redesigned from scratch and completely revised.</li>
+          </ul>
+          <div class="merchandise-cards__buttons">
+            <button class="merchandise-cards__wishlist-button">WISHLIST</button>
+            <button class="merchandise-cards__add-to-cart-button">ADD TO CART</button>
+          </div>
+        </div>
+        <div class="merchandise-cards__card">
+          <img src="/img/ipad-pro.jpg" class="merchandise-cards__image">
+          <div class="merchandise-cards__rating-and-price">
+            <div class="merchandise-cards__rating">4.8</div>
+            <div class="merchandise-cards__price">$899</div>
+          </div>
+          <ul class="merchandise-cards__item-descriptions">
+            <li class="merchandise-cards__item-name">Apple iPad Pro 64GB</li>
+            <li class="merchandise-cards__item-description">Redesigned from scratch and completely revised.</li>
+          </ul>
+          <div class="merchandise-cards__buttons">
+            <button class="merchandise-cards__wishlist-button">WISHLIST</button>
+            <button class="merchandise-cards__add-to-cart-button">ADD TO CART</button>
+          </div>
+        </div>
+        <div class="merchandise-cards__card">
+          <img src="/img/beats-headphones.svg" class="merchandise-cards__image">
+          <div class="merchandise-cards__rating-and-price">
+            <div class="merchandise-cards__rating">4.8</div>
+            <div class="merchandise-cards__price">$459</div>
+          </div>
+          <ul class="merchandise-cards__item-descriptions">
+            <li class="merchandise-cards__item-name">Beats Headphones</li>
+            <li class="merchandise-cards__item-description">Redesigned from scratch and completely revised.</li>
+          </ul>
+          <div class="merchandise-cards__buttons">
+            <button class="merchandise-cards__wishlist-button">WISHLIST</button>
+            <button class="merchandise-cards__add-to-cart-button">ADD TO CART</button>
+          </div>
+        </div>
+        <div class="merchandise-cards__card">
+          <img src="/img/macbook-pro.jpg" class="merchandise-cards__image">
+          <div class="merchandise-cards__rating-and-price">
+            <div class="merchandise-cards__rating">4.9</div>
+            <div class="merchandise-cards__price">$2499</div>
+          </div>
+          <ul class="merchandise-cards__item-descriptions">
+            <li class="merchandise-cards__item-name">Apple Macbook Pro 512GB SSD</li>
+            <li class="merchandise-cards__item-description">Redesigned from scratch and completely revised.</li>
+          </ul>
+          <div class="merchandise-cards__buttons">
+            <button class="merchandise-cards__wishlist-button">WISHLIST</button>
+            <button class="merchandise-cards__add-to-cart-button">ADD TO CART</button>
+          </div>
+        </div>
+        <div class="merchandise-cards__card">
+          <img src="/img/homepod.svg" class="merchandise-cards__image">
+          <div class="merchandise-cards__rating-and-price">
+            <div class="merchandise-cards__rating">4.7</div>
+            <div class="merchandise-cards__price">$399</div>
+          </div>
+          <ul class="merchandise-cards__item-descriptions">
+            <li class="merchandise-cards__item-name">Apple Homepod</li>
+            <li class="merchandise-cards__item-description">Redesigned from scratch and completely revised.</li>
+          </ul>
+          <div class="merchandise-cards__buttons">
+            <button class="merchandise-cards__wishlist-button">WISHLIST</button>
+            <button class="merchandise-cards__add-to-cart-button">ADD TO CART</button>
+          </div>
+        </div>
+        <div class="merchandise-cards__card">
+          <img src="/img/jlab-audio-wireless.svg" class="merchandise-cards__image">
+          <div class="merchandise-cards__rating-and-price">
+            <div class="merchandise-cards__rating">4.8</div>
+            <div class="merchandise-cards__price">$2499</div>
+          </div>
+          <ul class="merchandise-cards__item-descriptions">
+            <li class="merchandise-cards__item-name">JBuds Air Wireless Bluetooth…</li>
+            <li class="merchandise-cards__item-description">Redesigned from scratch and completely revised.</li>
+          </ul>
+          <div class="merchandise-cards__buttons">
+            <button class="merchandise-cards__wishlist-button">WISHLIST</button>
+            <button class="merchandise-cards__add-to-cart-button">ADD TO CART</button>
+          </div>
+        </div>
+        <div class="merchandise-cards__card">
+          <img src="/img/magic-mouse.svg" class="merchandise-cards__image">
+          <div class="merchandise-cards__rating-and-price">
+            <div class="merchandise-cards__rating">4.1</div>
+            <div class="merchandise-cards__price">$99</div>
+          </div>
+          <ul class="merchandise-cards__item-descriptions">
+            <li class="merchandise-cards__item-name">Apple Magic Mouse </li>
+            <li class="merchandise-cards__item-description">Redesigned from scratch and completely revised.</li>
+          </ul>
+          <div class="merchandise-cards__buttons">
+            <button class="merchandise-cards__wishlist-button">WISHLIST</button>
+            <button class="merchandise-cards__add-to-cart-button">ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="pagination">
+    <button class="pagination__button-page-back"></button>
+    <a href="#" class="pagination__page-outer-first">1</a>
+    <div class="pagination__main">
+      <a href="#" class="pagination__page">2</a>
+      <a href="#" class="pagination__page-active">3</a>
+      <a href="#" class="pagination__page">4</a>
+      <a href="#" class="pagination__page">5</a>
+      <a href="#" class="pagination__page">6</a>
+    </div>
+    <a href="#" class="pagination__page-outer-last">7</a>
+    <button class="pagination__button-page-forward"></button>
+  </div>
+
 
 </body>
 
