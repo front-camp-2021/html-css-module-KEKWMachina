@@ -14,6 +14,7 @@ $font-weight-medium: 400;
 $font-weight-large: 600;
 
 body {
+    
     background-color: $page-background-color;
     position: relative!important;
 }
@@ -531,6 +532,40 @@ body {
                     }
                 }
             } 
+        }
+    }
+
+    .pagination {
+
+        .pagination__button-page-back {
+            width: 25px;
+            height: 25px;
+        }
+    
+        .pagination__button-page-forward {
+            width: 25px;
+            height: 25px;      
+        }
+    
+        .pagination__page-outer-first {
+            padding: 2px 7px;
+        }
+    
+        .pagination__page-outer-last {
+            padding: 2px 7px;
+        }
+        
+        .pagination__page {
+            padding: 2px 7px;
+        }
+    
+        .pagination__main {
+            .pagination__page-active {
+                padding: 2px 7px;
+            }
+            .pagination__page {
+                float: left;
+            }
         }
     }
 }
