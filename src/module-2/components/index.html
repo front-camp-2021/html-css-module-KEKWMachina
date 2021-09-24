@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="/style.css">
+    
+</head>
+<body>
+    <header class="logo">
+        <img src="/img//logo.svg" alt="Logo" class="logo-img"> 
+        <span class="name">Online Store</span>
+    </header>
+    <nav class="navigation">
+       <div class="nav-btn">
+        <button class="homepage"></button>
+        <button>>></button>
+        <button class="current">eCommerce</button>
+        <button>>></button>
+        <button>Electronics</button>
+       </div>
+       <div class="results-wishlist">
+           <span class="results">7533 Results found</span>
+           <button class="wishlist-main"></button>
+        </div>
+    </nav>
+    <div class="main">
+        <div class="filters-and-cards">
+            <div class="filters"> 
+                <div class="filter-box">
+                    <h3 class="checkbox-header">Multi Range</h3> 
+                        <div>
+                            <input type="checkbox" id="Range" name="$10"checked class="round">
+                            <label for="scales">$10</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Range" name="$10-$100" class="round">
+                            <label for="scales">$10-$100</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Range" name="$100-$500" class="round">
+                            <label for="scales">$100-$500</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Range" name="$500" class="round">
+                            <label for="scales">$500</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Range" name="All" class="round">
+                            <label for="scales">All</label>
+                        </div>
+                        <div class="line"></div>
+                </div> 
+                <div class="filter-box">
+                    <h3 class="checkbox-header">Category</h3> 
+                        <div>
+                            <input type="checkbox" id="Category" name="Cellphones"checked class="square">
+                            <label for="scales">Cellphones</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Category" name="Computers and tablets" class="square">
+                            <label for="scales">Computers and tablets</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Category" name="Cellphone Accessories" class="square">
+                            <label for="scales">Cellphone Accessories</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Category" name="Appliances" class="square">
+                            <label for="scales">Appliances</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Category" name="Audio" class="square">
+                            <label for="scales">Audio</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Category" name="iPhone" class="square">
+                            <label for="scales">iPhone</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Category" name="Cameras & Camcorders" class="square">
+                            <label for="scales">Cameras & Camcorders</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Category" name="iPhone Cases & Clips" class="square">
+                            <label for="scales">iPhone Cases & Clips</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Category" name="TV & Home Theater" class="square">
+                            <label for="scales">TV & Home Theater</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Category" name="Small Kitchen Appliances" class="square">
+                            <label for="scales">Small Kitchen Appliances</label>
+                        </div>
+                        <div class="line"></div>
+                </div> 
+                <div class="filter-box">
+                    <h3 class="checkbox-header">Brand</h3> 
+                        <div>
+                            <input type="checkbox" id="Range" name="$10"checked class="square">
+                            <label for="scales">Insingi</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Range" name="Samsung" class="square">
+                            <label for="scales">Samsung</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Range" name="Apple" class="square">
+                            <label for="scales">Apple</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Range" name="HP" class="square">
+                            <label for="scales">HP</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Range" name="Sony" class="square">
+                            <label for="scales">Sony</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Range" name="Metra" class="square">
+                            <label for="scales">Metra</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Range" name="Dyne" class="square">
+                            <label for="scales">Dyne</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Range" name="LG" class="square">
+                            <label for="scales">LG</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Range" name="Canon" class="square">
+                            <label for="scales">Canon</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="Range" name="Speck" class="square">
+                            <label for="scales">Speck</label>
+                        </div>
+                </div> 
+                <button class="reset-btn">CLEAR ALL FILTERS</button>
+            </div>
+            <div class="cards">
+                <div class="searchfield">
+                    <input type="text" placeholder="Search">
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="/img/apple-watch.png" alt="Merchandise image">
+                    </div>
+                    <div class="rating-and-price">
+                        <div class="rating">
+                            <span>3.4</span>
+                        </div>
+                        <span class="price">$399</span>
+                    </div>
+                    <ul class="card-ul">
+                        <li class="item-name">Apple Watch Series 4 GPS</li>
+                        <li class="item-description">Redesigned from scratch and completely revised.</li>
+                    </ul>
+                    <div class="wishlist-cart-btn">
+                        <button class="wishlist"> <div class="wishlist-img" title="Wishlist image"></div> WISHLIST</button>
+                        <button class="cart"> <div class="cart-img" title="Cart image"></div> ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="/img/jbl-speaker.png" alt="Merchandise image">
+                    </div>
+                    <div class="rating-and-price">
+                        <div class="rating">
+                            <span>5.0</span>
+                        </div>
+                        <span class="price">$199</span>
+                    </div>
+                    <ul class="card-ul">
+                        <li class="item-name">JBL Speaker</li>
+                        <li class="item-description">Redesigned from scratch and completely revised.</li>
+                    </ul>
+                    <div class="wishlist-cart-btn">
+                        <button class="wishlist"> <div class="wishlist-img" title="Wishlist image"></div> WISHLIST</button>
+                        <button class="cart" title="Fitness Centre"> <div class="cart-img" title="Cart image"></div> ADD TO CART</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img">
+                        <img src="/img/iphone-x.png" alt="Merchandise image">
+                    </div>
+                    <div class="rating-and-price">
+                        <div class="rating">
+                            <span>4.8</span>
+                        </div>
+                        <span class="price">$899</span>
+                    </div>
+                    <ul class="card-ul">
+                        <li class="item-name">Apple iPhone X 128GB</li>
+                        <li class="item-description">Redesigned from scratch and completely revised.</li>
+                    </ul>
+                    <div class="wishlist-cart-btn">
+                        <button class="wishlist"> <div class="wishlist-img" title="Wishlist image"></div> WISHLIST</button>
+                        <button class="cart" title="Fitness Centre"> <div class="cart-img" title="Cart image"></div> ADD TO CART</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img">
+                        <img src="/img/beats-headphones.png" alt="Merchandise image">
+                    </div>
+                    <div class="rating-and-price">
+                        <div class="rating">
+                            <span>4.2</span>
+                        </div>
+                        <span class="price">$459</span>
+                    </div>
+                    <ul class="card-ul">
+                        <li class="item-name">Beats Headphones</li>
+                        <li class="item-description">Redesigned from scratch and completely revised.</li>
+                    </ul>
+                    <div class="wishlist-cart-btn">
+                        <button class="wishlist"> <div class="wishlist-img" title="Wishlist image"></div> WISHLIST</button>
+                        <button class="cart" title="Fitness Centre"> <div class="cart-img" title="Cart image"></div> ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="/img/macbook-pro.png" alt="Merchandise image">
+                    </div>
+                    <div class="rating-and-price">
+                        <div class="rating">
+                            <span>4.9</span>
+                        </div>
+                        <span class="price">$2499</span>
+                    </div>
+                    <ul class="card-ul">
+                        <li class="item-name">Apple Macbook Pro 512GB SSD</li>
+                        <li class="item-description">Redesigned from scratch and completely revised.</li>
+                    </ul>
+                    <div class="wishlist-cart-btn">
+                        <button class="wishlist"> <div class="wishlist-img" title="Wishlist image"></div> WISHLIST</button>
+                        <button class="cart" title="Fitness Centre"> <div class="cart-img" title="Cart image"></div> ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="/img/ipad-pro.png" alt="Merchandise image">
+                    </div>
+                    <div class="rating-and-price">
+                        <div class="rating">
+                            <span>4.8</span>
+                        </div>
+                        <span class="price">$899</span>
+                    </div>
+                    <ul class="card-ul">
+                        <li class="item-name">Apple iPad Pro 64GB</li>
+                        <li class="item-description">Redesigned from scratch and completely revised.</li>
+                    </ul>
+                    <div class="wishlist-cart-btn">
+                        <button class="wishlist"> <div class="wishlist-img" title="Wishlist image"></div> WISHLIST</button>
+                        <button class="cart" title="Fitness Centre"> <div class="cart-img" title="Cart image"></div> ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="/img/homepod.png" alt="Merchandise image">
+                    </div>
+                    <div class="rating-and-price">
+                        <div class="rating">
+                            <span>4.5</span>
+                        </div>
+                        <span class="price">$499</span>
+                    </div>
+                    <ul class="card-ul">
+                        <li class="item-name">Apple Homepod</li>
+                        <li class="item-description">Redesigned from scratch and completely revised.</li>
+                    </ul>
+                    <div class="wishlist-cart-btn">
+                        <button class="wishlist"> <div class="wishlist-img" title="Wishlist image"></div> WISHLIST</button>
+                        <button class="cart"> <div class="cart-img" title="Cart image"></div> ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="/img/jlab-audio-wireless.png" alt="Merchandise image">
+                    </div>
+                    <div class="rating-and-price">
+                        <div class="rating">
+                            <span>3,4</span>
+                        </div>
+                        <span class="price">$2499</span>
+                    </div>
+                    <ul class="card-ul">
+                        <li class="item-name">JBuds Air Wireless Bluetooth…</li>
+                        <li class="item-description">Redesigned from scratch and completely revised.</li>
+                    </ul>
+                    <div class="wishlist-cart-btn">
+                        <button class="wishlist"> <div class="wishlist-img" title="Wishlist image"></div> WISHLIST</button>
+                        <button class="cart"> <div class="cart-img" title="Cart image"></div> ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="/img/magic-mouse.png" alt="Merchandise image">
+                    </div>
+                    <div class="rating-and-price">
+                        <div class="rating">
+                            <span>2,4</span>
+                        </div>
+                        <span class="price">$99</span>
+                    </div>
+                    <ul class="card-ul">
+                        <li class="item-name">Apple Magic Mouse</li>
+                        <li class="item-description">Redesigned from scratch and completely revised.</li>
+                    </ul>
+                    <div class="wishlist-cart-btn">
+                        <button class="wishlist"> <div class="wishlist-img" title="Wishlist image"></div> WISHLIST</button>
+                        <button class="cart"> <div class="cart-img" title="Cart image"></div> ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="pagination">
+            <button class="previous-page"></button>
+            <a href="#"><p class="first">1</p></a>
+            <div class="main-pg">
+                <a href="#"><p class="pagination-page active">2</p></a>
+                <a href="#"><p class="pagination-page">3</p></a>
+                <a href="#"><p class="pagination-page">4</p></a>
+                <a href="#"><p class="pagination-page">5</p></a>
+            </div>
+            <a href="#"><p class="last">6</p></a>
+            <button class="next-page"></button>
+        </div>
+</body>
+</html>
+
